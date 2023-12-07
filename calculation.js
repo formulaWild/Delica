@@ -11,13 +11,13 @@ function calculate() {
     var result;
     var firstpay;
     if (hours >= 108) {
-      result = (kilometers * 4.5 + hours * 140 * 0.8).toFixed(0);
+      result = (kilometers * 5 + hours * 140 * 0.8).toFixed(0);
       firstpay = (hours * 140 * 0.8).toFixed(0);
     } else if (hours >= 60) {
-      result = (kilometers * 4.5 + hours * 140 * 0.9).toFixed(0);
+      result = (kilometers * 5 + hours * 140 * 0.9).toFixed(0);
       firstpay = (hours * 140 * 0.9).toFixed(0);
     } else {
-      result = (kilometers * 4.5 + hours * 140).toFixed(0);
+      result = (kilometers * 5 + hours * 140).toFixed(0);
       firstpay = (hours * 140).toFixed(0);
     }
     
